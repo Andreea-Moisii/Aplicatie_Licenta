@@ -22,7 +22,8 @@ namespace Aplicatie_Licenta
         public MainWindow()
         {
             InitializeComponent();
-            
+
+            // set sideMenu selected item to the first item
         }
 
         private void Grid_MouseMove(object sender, MouseEventArgs e)

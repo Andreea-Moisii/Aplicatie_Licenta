@@ -8,8 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="CustomControls\icons\ellipse.png" />
+    <None Remove="CustomControls\icons\equalizer.png" />
+    <None Remove="CustomControls\icons\heart.png" />
+    <None Remove="CustomControls\icons\heart_white.png" />
+    <None Remove="CustomControls\icons\home.png" />
+    <None Remove="CustomControls\icons\profile.png" />
+    <None Remove="CustomControls\icons\settings.png" />
+    <None Remove="icons\Ellipse.png" />
     <None Remove="icons\equalizer.png" />
     <None Remove="icons\heart.png" />
+    <None Remove="icons\heart_white.png" />
     <None Remove="icons\home.png" />
     <None Remove="icons\profile.png" />
     <None Remove="icons\settings.png" />
@@ -20,8 +29,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="CustomControls\icons\ellipse.png" />
+    <Resource Include="CustomControls\icons\equalizer.png" />
+    <Resource Include="CustomControls\icons\heart.png" />
+    <Resource Include="CustomControls\icons\heart_white.png" />
+    <Resource Include="CustomControls\icons\home.png" />
+    <Resource Include="CustomControls\icons\profile.png" />
+    <Resource Include="CustomControls\icons\settings.png" />
+    <Resource Include="icons\ellipse.png" />
     <Resource Include="icons\equalizer.png" />
     <Resource Include="icons\heart.png" />
+    <Resource Include="icons\heart_white.png" />
     <Resource Include="icons\home.png" />
     <Resource Include="icons\profile.png" />
     <Resource Include="icons\settings.png" />
