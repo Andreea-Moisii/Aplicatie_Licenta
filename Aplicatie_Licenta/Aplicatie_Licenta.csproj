@@ -8,7 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HandyControl" Version="3.3.0" />
+    <None Remove="icons\equalizer.png" />
+    <None Remove="icons\heart.png" />
+    <None Remove="icons\home.png" />
+    <None Remove="icons\profile.png" />
+    <None Remove="icons\settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControls" Version="3.3.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\equalizer.png" />
+    <Resource Include="icons\heart.png" />
+    <Resource Include="icons\home.png" />
+    <Resource Include="icons\profile.png" />
+    <Resource Include="icons\settings.png" />
   </ItemGroup>
 
 </Project>
